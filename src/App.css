@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Home {
+    border: 5px black solid;
+    background: url("rogue_3.png");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+}
+    .Home button {
+        padding: 0.5rem 1rem;
+        background-color: black;
+        color: white;
+        border: 2px white solid;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        margin: 1rem;
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        text-decoration: none;
+    }
+.Home h1 {
+    line-height: 200%;
+    font-family: 'MS Gothic';
+    font-size: 70px;
+    font-weight: bolder;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+.Home ul {
+    background-color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: flex;
+}
+    .Home ul a {
+        text-decoration: none;
+    }
+.Add {
+    border: 5px black solid;
+    background: url("Stormtrooper.png");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+}
+.Add button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 1rem;
+    display: flex;
+}
+.Add ul {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+}
+    .Add ul a {
+        text-decoration: none;
+    }
+.employee-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+    .employee-form label {
+        font-family: 'MS Gothic';
+        font-size: 24px;
+        font-weight: bolder;
+        margin: 0.5rem;
+    }
+    .employee-form input {
+        padding: 0.7rem;
+        margin: 1rem;
+        border-radius: 0.25rem;
+        border: 1px black solid;
+        align-items: center
+    }
+    .employee-form button {
+        padding: 0.5rem 1rem;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 0.25rem;
+        cursor: pointer;
+    }
+.Add h2 {
+    background-color: lightgray;
+    margin: 2rem;
+    border: 1px solid black;
+}
+.List {
+    border: 5px black solid;
+    background: url("Hangar.png");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+}
+.List button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 1rem;
+    display: flex;
+}
+    .List h1 {
+        font-family: 'MS Gothic';
+    }
+
+.List ul {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+}
+.List ul a {
+    text-decoration: none;
+}
+
+.employee-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.employee-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: none;
+    align-items: center;
+}
+
+    .employee-list h1 {
+        border: 2px solid black;
+        padding: 5px;
+        background-color: lightgray;
+        color: black;
+        font-size: 36px;
+        margin-bottom: 16px;
+        margin-top: 5px;
+    }
+
+    .employee-list ul {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0);
+        text-decoration: none;
+    }
+
+    .employee-list lo {
+        margin: 20px;
+    }
+
+        .employee-list lo a {
+            border: 3px solid black;
+            background-color: white;
+            padding: 10px;
+            margin: 1rem;
+            color: blue;
+            text-decoration: none;
+            align-items: center;
+            text-align: center;
+        }
+.Details {
+    border: 5px black solid;
+    background: url("Empire.png");
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+}
+.employee-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    .employee-detail label {
+        font-family: 'MS Gothic';
+        font-weight: bold;
+    }
+
+    .employee-detail table {
+        background-color: white;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .employee-detail td, .employee-detail th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .employee-detail tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .employee-detail tr:hover {
+        background-color: #ddd;
+    }
+
+    .employee-detail th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #0077cc;
+        color: white;
+    }
+.Details button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: 2px white solid;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin: 1rem;
+    display: flex;
+}
+
+.Details ul {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+}
+.Details ul a{
+    text-decoration: none;
+}
